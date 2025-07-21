@@ -19,7 +19,7 @@ app.use(morgan("dev"));
 // ✅ Updated CORS Middleware for production
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "https://v1-spotify-clone-fn.vercel.app",
+    origin: process.env.FRONTEND_URL || "https://spotify-clone-frontend-seven.vercel.app",
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: [
